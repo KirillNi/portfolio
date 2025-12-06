@@ -1,0 +1,13 @@
+body.dark-mode::before {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.lightTheme.dark-mode,
+.lightTheme.dark-mode h4,
+.lightTheme.dark-mode .speciality {
+    color: #616161;
+}
+
+.lightTheme.dark-mode path {
+    fill: #616161;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <navbar class="navbar">
+        <h2 class="logo en_lang">Portfolio</h2>
+        <h2 class="logo rus_lang">Портфолио</h2>
+
+        <ul class="navbar__list">
+            <li><a class="en_lang" href="#">ABOUT</a></li>
+            <li><a class="rus_lang" href="#">ОБО МНЕ</a></li>
+            <li><a class="en_lang" href="skills.html">SKILLS</a></li>
+            <li><a class="rus_lang" href="skills.html">НАВЫКИ</a></li>
+            <li><a class="en_lang" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="rus_lang" href="portfolio.html">ПОРТФОЛИО</a></li>
+        </ul>
+
+        <div class="navbar__darkmode">
+            <div class="lang_buttons">
+                <a href="#" class="button_rus_lang">
+                    <img src="images/flag-us.svg">
+                </a>
+                <a href="#" class="button_en_lang">
+                    <img src="images/flag-ru.svg">
+                </a>
+            </div>
+
+            <input type="checkbox" name="checkbox" id="ChangeTheme"/>
+            <label for="ChangeTheme" class="switch"></label>
+        </div>
+    </navbar>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <span class="profile_photo">
+                <img src="images/photo.jpg">
+            </span>
+
+            <div class="name__job">
+                <h3 class="sidebar__name en_lang">Kirill<br/>Nizamutdinov</h3>
+                <h3 class="sidebar__name rus_lang">Кирилл<br/>Низамутдинов</h3>
+                <h4 class="profession lightTheme en_lang">FEFU Student</h4>
+                <h4 class="profession lightTheme rus_lang">Студент ДВФУ</h4>
+            </div>
+
+            <div class="short__text en_lang">High level  experience in web design and development knowledge.</div>
+            <div class="short__text rus_lang">Высокий уровень опыта в веб-дизайне и знаний в области разработки.</div>
+
+            <div class="icons_block">
+                <a href="https://vk.com/s.kress" class="social__icon" target="_blank"><img src="images/icon_vk.svg"></a>
+                <a href="https://github.com/KirillNi" class="social__icon" target="_blank"><img src="images/icon_github.svg"></a>
+                <a href="#!" class="social__icon"><img src="images/icon_telegram.svg"></a>
+            </div>
+
+            <a href="#!" class="btn">
+                <div class="contact__me en_lang">Contact Me</div>
+                <div class="contact__me rus_lang">Связаться</div>
+                <svg class="icon__mail" xmlns="http://www.w3.org/2000/svg" width="43" height="24" viewBox="0 0 43 24" fill="none">
+                    <path d="M6.99909 8.91722H2.91587C2.37441 8.91722 1.85512 9.13231 1.47224 9.51519C1.08936 9.89806 0.874268 10.4174 0.874268 10.9588C0.874268 11.5003 1.08936 12.0196 1.47224 12.4025C1.85512 12.7853 2.37441 13.0004 2.91587 13.0004H6.99909C7.54056 13.0004 8.05985 12.7853 8.44272 12.4025C8.8256 12.0196 9.0407 11.5003 9.0407 10.9588C9.0407 10.4174 8.8256 9.89806 8.44272 9.51519C8.05985 9.13231 7.54056 8.91722 6.99909 8.91722ZM41.2573 3.11905V2.99655C40.6723 2.28156 39.9332 1.70815 39.0953 1.31923C38.2574 0.930323 37.3423 0.73599 36.4187 0.750786H20.2287C18.7285 0.737311 17.2756 1.2749 16.1455 2.26157V2.26157C15.09 3.19159 14.396 4.46386 14.1855 5.8548L12.3889 16.0628C12.2344 16.9444 12.275 17.8491 12.5078 18.7133C12.7406 19.5775 13.16 20.3801 13.7364 21.0648C14.3098 21.7472 15.0252 22.2962 15.8327 22.6735C16.6402 23.0508 17.5204 23.2473 18.4117 23.2493H34.622C36.0782 23.2713 37.4946 22.7737 38.617 21.8458C39.7395 20.9179 40.4946 19.6204 40.7469 18.1861L42.5435 7.97808C42.685 7.12326 42.6435 6.24814 42.4218 5.41054C42.2001 4.57294 41.8031 3.79191 41.2573 3.11905V3.11905ZM35.6633 4.834L28.7218 10.4688C28.3114 10.7996 27.7889 10.9588 27.2638 10.9132C26.7387 10.8675 26.2515 10.6205 25.9044 10.2238L21.1474 4.834H35.6633ZM36.6432 17.4307C36.5606 17.9101 36.3095 18.3442 35.9352 18.6548C35.5609 18.9655 35.088 19.1323 34.6016 19.1253H18.4117C18.1152 19.1228 17.8228 19.0557 17.5548 18.9288C17.2869 18.8019 17.0498 18.6181 16.8601 18.3903C16.6698 18.1636 16.5311 17.8984 16.4536 17.6128C16.376 17.3273 16.3615 17.0283 16.4109 16.7366L18.0442 7.48809L22.842 12.9188C23.8863 14.1057 25.3491 14.8428 26.9244 14.976C28.4997 15.1092 30.0655 14.6281 31.2942 13.6333L38.3173 7.89641L36.6432 17.4307ZM9.0407 0.750786H2.91587C2.37441 0.750786 1.85512 0.965883 1.47224 1.34876C1.08936 1.73163 0.874268 2.25093 0.874268 2.79239C0.874268 3.33386 1.08936 3.85315 1.47224 4.23603C1.85512 4.6189 2.37441 4.834 2.91587 4.834H9.0407C9.58217 4.834 10.1015 4.6189 10.4843 4.23603C10.8672 3.85315 11.0823 3.33386 11.0823 2.79239C11.0823 2.25093 10.8672 1.73163 10.4843 1.34876C10.1015 0.965883 9.58217 0.750786 9.0407 0.750786Z" fill="white"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="content">
+            <marquee class="cats" behavior="alternate" direction="left" scrollamount="20">
+                <img src="./images/cats/cat_1.jpg" alt="">
+                <img src="./images/cats/cat_2.jpg" alt="">
+                <img src="./images/cats/cat_3.jpeg" alt="">
+                <img src="./images/cats/cat_4.jpeg" alt="">
+                <img src="./images/cats/cat_5.jpg" alt="">
+                <img src="./images/cats/cat_6.jpg" alt="">
+                <img src="./images/cats/cat_7.jpg" alt="">
+                <img src="./images/cats/cat_8.webp" alt="">
+            </marquee>
+
+        </div>
+    </div>
+
+
+    <script src="js/darkmode.js"></script>
+    <script src="js/qualification.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
