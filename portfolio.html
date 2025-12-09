@@ -72,45 +72,144 @@
             <h3 class="en_lang">My recent work</h3>
             <h3 class="rus_lang">Мои последние работы</h3>
 
-            <div class="slider-container">
-                <button class="prev-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
-                        <path d="M23.0002 45.5C10.5738 45.5 0.500244 35.4264 0.500244 23C0.500245 10.5736 10.5738 0.499998 23.0002 0.499998C35.4267 0.499998 45.5002 10.5736 45.5002 23C45.5002 35.4264 35.4267 45.5 23.0002 45.5ZM23.0002 40.7985C32.8301 40.7985 40.7988 32.8298 40.7988 23C40.7988 13.1702 32.8301 5.20149 23.0002 5.20149C13.1704 5.20149 5.20174 13.1702 5.20174 23C5.20174 32.8298 13.1704 40.7985 23.0002 40.7985ZM21.7689 23L26.7893 28.1661C27.7074 29.0842 27.7074 30.5726 26.7893 31.4906C25.8713 32.4086 24.3829 32.4086 23.4649 31.4906L16.7485 24.7742C15.8304 23.8561 15.8304 22.3677 16.7485 21.4497L23.4649 14.7333C24.3829 13.8153 25.8713 13.8153 26.7893 14.7333C27.7074 15.6513 27.7074 17.1397 26.7893 18.0577L21.7689 23Z" fill="#B3CBD9"/>
-
-                    </svg>
-                </button>
-
-                <div class="slider">
-                    <div class="slide">
-                        <img src="./images/slider_1.png">
-
-                        <div class="slider__info">
-                            <h4 class="en_lang">Сlothing store</h4>
-                            <h4 class="rus_lang">Магазин одежды</h4>
-                            <h5 class="en_lang">A training project for practicing site layout and JavaScript skills. A shopping cart was created in the project.</h5>
-                            <h5 class="rus_lang">Учебный проект для отработки навыков верстки сайта и JavaScript. В проекте была создана корзина покупок.</h5>
-                            <a href="https://github.com/KirillNi/JavaScript/tree/Lesson_8" class="slider__info_btn" target="_blank">GitHub</a>
+            <div class="portfolio-list">
+                <div class="portfolio-item">
+                    <div class="portfolio-item__gallery">
+                        <div class="portfolio-gallery__container">
+                            <div class="portfolio-gallery__slides">
+                                <img src="./images/projects/clothing_store/slider_1.png" alt="Clothing store" class="portfolio-gallery__slide active">
+                                <!-- <img src="./images/slider_1.png" alt="Clothing store" class="portfolio-gallery__slide"> -->
+                            </div>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--prev" aria-label="Previous">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M15 18l-6-6 6-6"/>
+                                </svg>
+                            </button>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--next" aria-label="Next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 18l6-6-6-6"/>
+                                </svg>
+                            </button>
+                            <div class="portfolio-gallery__dots"></div>
                         </div>
                     </div>
 
-                    <div class="slide">
-                        <img src="./images/slider_2.jpg">
-
-                        <div class="slider__info">
-                            <h4 class="en_lang">Online-store</h4>
-                            <h4 class="rus_lang">Онлайн магазин</h4>
-                            <h5 class="en_lang">A training project for developing an application using Python and Django Rest Framework.</h5>
-                            <h5 class="rus_lang">Учебный проект по разработке приложения с использованием Python и Django Rest Framework.</h5>
-                            <a href="https://github.com/KirillNi/DRFProject" class="slider__info_btn" target="_blank">GitHub</a>
-                        </div>
+                    <div class="portfolio-item__info">
+                        <h4 class="en_lang">Сlothing store</h4>
+                        <h4 class="rus_lang">Магазин одежды</h4>
+                        <h5 class="en_lang"><strong>Tech Stack:</strong> HTML, CSS, JavaScript<br><br>A training project for practicing site layout and JavaScript skills. A shopping cart was created in the project.</h5>
+                        <h5 class="rus_lang"><strong>Стек технологий:</strong> HTML, CSS, JavaScript<br><br>Учебный проект для отработки навыков верстки сайта и JavaScript. В проекте была создана корзина покупок.</h5>
+                        <a href="https://kirillni.github.io/JavaScript/" class="portfolio-item__btn" target="_blank">GitHub</a>
                     </div>
                 </div>
 
-                <button class="next-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="46" viewBox="0 0 45 46" fill="none">
-                        <path d="M22.5 0.499999C34.9264 0.5 45 10.5736 45 23C45 35.4264 34.9264 45.5 22.5 45.5C10.0736 45.5 -3.68953e-06 35.4264 -3.14635e-06 23C-2.60318e-06 10.5736 10.0736 0.499998 22.5 0.499999ZM22.5 5.20149C12.6702 5.20149 4.70149 13.1702 4.70149 23C4.70149 32.8298 12.6701 40.7985 22.5 40.7985C32.3298 40.7985 40.2985 32.8298 40.2985 23C40.2985 13.1702 32.3298 5.20149 22.5 5.20149ZM23.7313 23L18.7109 17.8339C17.7929 16.9158 17.7929 15.4274 18.7109 14.5094C19.6289 13.5914 21.1173 13.5914 22.0354 14.5094L28.7518 21.2258C29.6698 22.1439 29.6698 23.6323 28.7518 24.5503L22.0354 31.2667C21.1173 32.1847 19.6289 32.1847 18.7109 31.2667C17.7929 30.3487 17.7929 28.8603 18.7109 27.9423L23.7313 23Z" fill="#B3CBD9"/>
-                    </svg>
-                </button>
+                <div class="portfolio-item">
+                    <div class="portfolio-item__gallery">
+                        <div class="portfolio-gallery__container">
+                            <div class="portfolio-gallery__slides">
+                                <img src="./images/projects/online_store/slider_2.jpg" alt="Online store" class="portfolio-gallery__slide active">
+                            </div>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--prev" aria-label="Previous">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M15 18l-6-6 6-6"/>
+                                </svg>
+                            </button>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--next" aria-label="Next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 18l6-6-6-6"/>
+                                </svg>
+                            </button>
+                            <div class="portfolio-gallery__dots"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item__info">
+                        <h4 class="en_lang">Online-store</h4>
+                        <h4 class="rus_lang">Онлайн магазин</h4>
+                        <h5 class="en_lang"><strong>Tech Stack:</strong> Python, Django Rest Framework, SQL, REST API<br><br>A training project for developing an application using Python and Django Rest Framework.</h5>
+                        <h5 class="rus_lang"><strong>Стек технологий:</strong> Python, Django Rest Framework, SQL, REST API<br><br>Учебный проект по разработке приложения с использованием Python и Django Rest Framework.</h5>
+                        <a href="https://github.com/KirillNi/DRFProject" class="portfolio-item__btn" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item__gallery">
+                        <div class="portfolio-gallery__container">
+                            <div class="portfolio-gallery__slides">
+                                <img src="./images/projects/trading_system/1.png" alt="Trading System" class="portfolio-gallery__slide active">
+                                <img src="./images/projects/trading_system/2.png" alt="Trading System" class="portfolio-gallery__slide">
+                                <img src="./images/projects/trading_system/3.png" alt="Trading System" class="portfolio-gallery__slide">
+                            </div>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--prev" aria-label="Previous">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M15 18l-6-6 6-6"/>
+                                </svg>
+                            </button>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--next" aria-label="Next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 18l6-6-6-6"/>
+                                </svg>
+                            </button>
+                            <div class="portfolio-gallery__dots"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item__info">
+                        <h4 class="en_lang">Trading System with AI Models</h4>
+                        <h4 class="rus_lang">Торговая система с использованием ИИ-моделей</h4>
+                        <h5 class="en_lang"><strong>Tech Stack:</strong> C++, Qt, SQL, PostgreSQL, OpenAI API (GPT models), LLaMA via LM Studio, REST API, JSON<br><br>Implemented a trading system where AI models analyze market data and manage exchange orders. Integrated both cloud LLMs (OpenAI API) and local LLaMA via LM Studio.</h5>
+                        <h5 class="rus_lang"><strong>Стек технологий:</strong> C++, Qt, SQL, PostgreSQL, OpenAI API (GPT-модели), локальные модели LLaMA через LM Studio, REST API, JSON<br><br>Реализовал торговую систему, в которой ИИ-модели анализируют рыночные данные и управляют биржевыми заявками. Интегрировал как облачные LLM (OpenAI API), так и локальную LLaMA через LM Studio.</h5>
+                        <a href="https://github.com/KirillNi/TradeSystem" class="portfolio-item__btn" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item__gallery">
+                        <div class="portfolio-gallery__container">
+                            <div class="portfolio-gallery__slides">
+                                <img src="./images/projects/dance_studio/1.jpg" alt="Dance Studio App" class="portfolio-gallery__slide active">
+                                <img src="./images/projects/dance_studio/2.jpg" alt="Dance Studio App" class="portfolio-gallery__slide">
+                                <img src="./images/projects/dance_studio/3.jpg" alt="Dance Studio App" class="portfolio-gallery__slide">
+                                <img src="./images/projects/dance_studio/4.jpg" alt="Dance Studio App" class="portfolio-gallery__slide">
+                                <img src="./images/projects/dance_studio/5.jpg" alt="Dance Studio App" class="portfolio-gallery__slide">
+                            </div>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--prev" aria-label="Previous">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M15 18l-6-6 6-6"/>
+                                </svg>
+                            </button>
+                            <button class="portfolio-gallery__nav portfolio-gallery__nav--next" aria-label="Next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 18l6-6-6-6"/>
+                                </svg>
+                            </button>
+                            <div class="portfolio-gallery__dots"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item__info">
+                        <h4 class="en_lang">Cross-platform Mobile App for Dance Studio</h4>
+                        <h4 class="rus_lang">Мобильное кроссплатформенное приложение для танцевальной студии</h4>
+                        <h5 class="en_lang"><strong>Tech Stack:</strong> Dart, Flutter, Cursor AI, iOS/Android<br><br>Fully developed a cross-platform application for a dance studio: schedule, bookings, user profile, media. Used AI tools (Cursor AI) for component generation, development acceleration, and architecture optimization.</h5>
+                        <h5 class="rus_lang"><strong>Стек технологий:</strong> Dart, Flutter, Cursor AI, iOS/Android<br><br>Полностью разработал кроссплатформенное приложение для студии танцев: расписание, записи, профиль пользователя, медиа. Использовал ИИ-инструменты (Cursor AI) для генерации компонентов, ускорения разработки и оптимизации архитектуры.</h5>
+                        <a href="https://disk.yandex.ru/d/lL3UVcF7lclMjQ" class="portfolio-item__btn" target="_blank">Yandex.Disk</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item__placeholder">
+                        <span class="en_lang">Computer Vision</span>
+                        <span class="rus_lang">Компьютерное зрение</span>
+                    </div>
+
+                    <div class="portfolio-item__info">
+                        <h4 class="en_lang">Pedestrian Detection System (Computer Vision)</h4>
+                        <h4 class="rus_lang">Система детекции количества людей на пешеходном переходе (Computer Vision)</h4>
+                        <h5 class="en_lang"><strong>Tech Stack:</strong> Python, Ultralytics YOLOv8, PyTorch, OpenCV, NumPy, Google Colab, Jupyter Notebook, CUDA/GPU Acceleration<br><br>Developed a system that analyzes video streams, detects the number of pedestrians and tracks their movement. Used YOLO for object detection and OpenCV for post-processing and counting.</h5>
+                        <h5 class="rus_lang"><strong>Стек технологий:</strong> Python, Ultralytics YOLOv8, PyTorch, OpenCV, NumPy, Google Colab, Jupyter Notebook, CUDA/GPU Acceleration<br><br>Разработал систему, которая анализирует видеопоток, определяет количество пешеходов и отслеживает их перемещение. Использовал YOLO для детекции объектов и OpenCV для постобработки и подсчёта.</h5>
+                        <a href="https://colab.research.google.com/drive/1FOnxtcjURyJwPOljR-eUPYOYBIZ4xbNQ?usp=sharing" class="portfolio-item__btn" target="_blank">Colab</a>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -119,7 +218,7 @@
 
 
     <script src="js/darkmode.js"></script>
-    <script src="./js/slider.js"></script>
     <script src="js/language.js"></script>
+    <script src="js/portfolio-gallery.js"></script>
 </body>
 </html>
